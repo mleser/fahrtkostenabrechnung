@@ -32,6 +32,7 @@ import { NgSelectModule } from '@ng-select/ng-select';
 import { FinishedDialogComponent } from './travel-expenses/submission-overview/finished-dialog/finished-dialog.component';
 import { CourseDataComponent } from './travel-expenses/course-data/course-data.component';
 import { FormCardComponent } from './form-card/form-card.component';
+import { InviteCreatorComponent } from './invite-creator/invite-creator.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { FormCardComponent } from './form-card/form-card.component';
     ExpenseListComponent,
     FinishedDialogComponent,
     CourseDataComponent,
-    FormCardComponent
+    FormCardComponent,
+    InviteCreatorComponent
   ],
   imports: [
     BrowserModule,

@@ -7,12 +7,17 @@ import { DataProtectionComponent } from './info/data-protection/data-protection.
 import { InfoComponent } from './info/info.component';
 import { TravelExpensesComponent } from './travel-expenses/travel-expenses.component';
 import { CourseDataComponent } from './travel-expenses/course-data/course-data.component';
+import { InviteCreatorComponent } from './invite-creator/invite-creator.component';
 
 const routes: Routes = [
   {
     path: '',
     redirectTo: 'kurs',
     pathMatch: 'full'
+  },
+  {
+    path: 'kurslink-erstellen',
+    component: InviteCreatorComponent
   },
   {
     path: '',
